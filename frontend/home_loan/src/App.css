@@ -1,0 +1,50 @@
+body {
+  background: #f4f7fa;
+  display: contents;
+}
+
+.card {
+  border-radius: 15px;
+}
+
+.card-hover {
+  transition: 0.3s;
+}
+
+.card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+}
+
+.table {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.btn {
+  border-radius: 20px;
+}
+
+.hero {
+  height: 100vh;
+  background: url("https://images.unsplash.com/photo-1560518883-ce09059eeffa")
+    no-repeat center/cover;
+  position: relative;
+}
+
+.overlay {
+  height: 100%;
+  background: rgba(0,0,0,0.6);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card-hover {
+  transition: 0.3s;
+}
+
+.card-hover:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+}
